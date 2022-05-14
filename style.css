@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 240px;
+  background: tomato;
+  height: 100vh;
+  position: fixed;
+  -webkit-transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  border-right: 3px solid orange;
+}
+
+.container .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.container .top .logo {
+  width: 80px;
+}
+
+.container .top button {
+  height: 30px;
+  width: 30px;
+  background: #ffffff;
+  border: none;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.container .top button:hover {
+  cursor: pointer;
+  background: rebeccapurple;
+  color: #fff;
+}
+
+.container .menus {
+  padding: 30px;
+}
+
+.container .menus ul li {
+  list-style: none;
+}
+
+.container .menus ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.container .menus ul li i {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 7px;
+  color: tomato;
+}
+
+.container .footer {
+  left: 15px;
+  bottom: 0;
+  position: fixed;
+}
+
+.container .footer p {
+  text-align: center;
+  color: #fff;
+}
+
+.hide {
+  width: 90px;
+}
+
+.hide .top {
+  margin: auto;
+  padding: 30px;
+}
+
+.hide .logo {
+  display: none;
+}
+
+.hide .link-text {
+  display: none;
+}
+
+.hide .footer {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
