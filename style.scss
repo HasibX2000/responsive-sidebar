@@ -7,13 +7,14 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 
 .container {
   width: 240px;
   background: tomato;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
   border-right: 3px solid orange;
   .top {
@@ -91,4 +92,12 @@ body {
   .footer {
     display: none;
   }
+}
+
+.body-part {
+  margin-left: 245px;
+}
+
+.body-canvas {
+  margin-left: 100px;
 }
